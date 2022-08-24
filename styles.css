@@ -2,7 +2,7 @@
   /* Definimos a largura da página */
   width:1000px;
   /* Definirmos a altura da página*/
-  height:700px;
+  height:1000px;
   /* Aqui definiremos a posição que a página ocupará na tela, nesse caso estamos definindo que fique centralizado na tela*/
   /*top : posição de cima */
   margin-top:0;
@@ -13,7 +13,7 @@
   /* right : posição de direita */
   margin-right:auto;
   /* Aqui definiremos a cor de fundo da página */
-  background-color:#666;
+  background-color:#FFF;
 }
 #header{
   /*Novamente definimos a largura da div*/
@@ -21,16 +21,25 @@
   /* altura da div */
   height:100px;
   /* Cor de fundo da div */
-  background-color:#00F;
+  background-color:#FFF;
+  foreground-color:#006400;
   /*#ffffff - branco */
   }
 #conteudo{
   /*Novamente definimos a largura da div*/
   width:1000px;
   /* altura da div */
-  height:500px;
+  height:300px;
   /* Cor de fundo da div */
-  background-color:#0F0;
+  background-color:#FFF;
+}
+#conteudo2{
+  /*Novamente definimos a largura da div*/
+  width:1000px;
+  /* altura da div */
+  height:700px;
+  /* Cor de fundo da div */
+  background-color:#FFF;
 }
 #footer{
   /*Novamente definimos a largura da div*/
@@ -38,20 +47,20 @@
   /* altura da div */
   height:100px;
   /* Cor de fundo da div */
-  background-color:#C3C;
+  background-color:#FFF;
   }
 #conteudo-left{
   /*Novamente definimos a largura da div*/
-  width:500px;
+  width:125px;
   /* altura da div */
-  height:300px;
+  height:1200px;
   /* O atributo Float é utilizado para fazermos o nosso bloco(div)
   literalmente flutue e se posicione onde queremos na página,
   quando escolhemos left, dizemos que esse bloco irá se posicionar na
   parte esquerda da página */
   float:left;
   /* Cor de fundo da div */
-  background-color:#FF0;
+  background-color:#FFF;
   }
 #conteudo-right{
   /*Novamente definimos a largura da div*/
@@ -66,6 +75,11 @@
   pois o máximo que a div filha poderá ter é 1000px, sendo 500+500=1000px */
   float:left;
   /* Cor de fundo da div */
-  background-color:#F00;
+  background-color:#FFF;
   }
-  
+h1 {
+	text-align: center;
+	font-size:40px;
+	font-weight: bold;
+	color: #006400;
+}
