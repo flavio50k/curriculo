@@ -19,16 +19,21 @@
   /*Novamente definimos a largura da div*/
   width:1000px;
   /* altura da div */
-  height:100px;
+  height:70px;
   /* Cor de fundo da div */
-  background-color:#FFF;
+  background-color:#11A1A7;
   /*#ffffff - branco */
+  position: relative;
+}
+#center{
+  position: absolute;
+  top: 50%;
 }
 #conteudo{
   /*Novamente definimos a largura da div*/
   width:1000px;
   /* altura da div */
-  height:300px;
+  height:1500px;
   /* Cor de fundo da div */
   background-color:#FFF;
 }
@@ -36,23 +41,23 @@
   /*Novamente definimos a largura da div*/
   width:1000px;
   /* altura da div */
-  height:700px;
+  height:250px;
   /* Cor de fundo da div */
   background-color:#FFF;
-}
+}2
 #footer{
   /*Novamente definimos a largura da div*/
   width:1000px;
   /* altura da div */
   height:100px;
   /* Cor de fundo da div */
-  background-color:#FFF;
+  background-color:#11A1A7;
   }
 #conteudo-left{
   /*Novamente definimos a largura da div*/
   width:125px;
   /* altura da div */
-  height:1200px;
+  height:2000px;
   /* O atributo Float é utilizado para fazermos o nosso bloco(div)
   literalmente flutue e se posicione onde queremos na página,
   quando escolhemos left, dizemos que esse bloco irá se posicionar na
@@ -79,11 +84,31 @@
 h1 {
 	text-align: center;
 	font-size:50px;
-	color: #006400;
+	color: #FFF;
+}
+h2 {
+	text-align: left;
+	font-size:30px;
+	color: black;
 }
 p {
 	text-align: justify;
 	font-family:Arial,Helvetica,sans-serif;
+	font-size:14px;
+	color: black;
+	margin: 10px;
+}
+p1 {
+	text-align: justify;
+	font-family:Arial,Helvetica,sans-serif;
+	font-size:18px;
+	font-weight: bold;
+	color: black;
+}
+p2 {
+	text-align: justify;
+	font-family:Arial,Helvetica,sans-serif;
 	font-size:16px;
+	font-weight: bold;
 	color: black;
 }
